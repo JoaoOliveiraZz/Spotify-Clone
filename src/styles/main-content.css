@@ -1,0 +1,111 @@
+.main-content {
+  background: #121212;
+  max-width: 80%;
+  min-height: 90vh;
+  left: 20%;
+  margin: 1% 1% 0 20%;
+  border-radius: 10px;
+}
+
+.header_navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 16px;
+}
+
+.header_navigation > * {
+  display: flex;
+}
+
+.header_navigation .navigation {
+  justify-content: space-around;
+  gap: 1.25rem;
+}
+
+.header_navigation .navigation button {
+  background-color: #121212;
+  border: none;
+  border-radius: 50%;
+}
+
+.header_navigation .navigation button img {
+  height: 32px;
+  width: 32px;
+  background: var(--bg-icon);
+  background-color: var(--bg-arrow-color);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header_navigation .search {
+  width: 35%;
+  height: 48px;
+  border-radius: 500px;
+  background-color: #242424;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_navigation .search input {
+  flex: 1;
+  background-color: transparent;
+  border: 2px solid transparent;
+  border-radius: 500px;
+  outline: none;
+  color: #b3b3b3;
+  font-size: 1rem;
+  padding: 0 100px 0 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header_navigation .search img {
+  width: 16px;
+  height: 16px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.header_navigation .header_login {
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header_navigation .header_login > * {
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-weight: 700;
+}
+
+.header_navigation .header_login a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.header_navigation .header_login a:hover {
+  text-decoration: underline;
+}
+
+.header_navigation .header_login button {
+  padding: 5px 12px;
+  border: 2px solid transparent;
+  border-radius: 40px;
+  width: 100px;
+  height: 48px;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header_navigation .header_login button:hover {
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid #fff;
+}
