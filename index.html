@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./src/styles/vars.css" />
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
     <link rel="stylesheet" href="./src/styles/main-content.css" />
+    <link rel="stylesheet" href="./src/styles/media-queries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -110,8 +111,7 @@
             <h1 id="greeting">Boa Tarde</h1>
             <h2 class="session">Navegar por todas as sessões</h2>
           </div>
-        </div>
-
+        
         <div class="offer_scroll_container">
           <div class="offer_list">
             <section class="offer_list_item">
@@ -236,7 +236,27 @@
               </a>
             </section>
           </div>
+
         </div>
+        </div>
+
+          <div id="result-artist" class="hidden">
+            <div class="grid-container">
+              <div class="artist-card" id="">
+                <div class="card-img">
+                  <img id="artist-img" class="artist-img">
+                  <div class="play">
+                    <i class="fa fa-solid fa-play"></i>
+                  </div>
+                </div>
+                <div class="card-text">
+                  <a href="" title="foo-fighters" class="vst"></a>
+                  <span class="artist-name" id="artist-name"></span>
+                  <span class="artist-name-category">Artista</span>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </main>
     <footer>
@@ -249,5 +269,7 @@
       </div>
       <button class="footer_button">Inscreva-se grátis</button>
     </footer>
+
+    <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
